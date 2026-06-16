@@ -1,0 +1,77 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual environments ──────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── FastF1 cache (can be large — regenerate with session.load()) ──
+fastf1_cache/
+.fastf1_cache/
+*.fastf1
+
+# ── Generated data files (too large for git) ─────────────
+processed_laps.csv
+*.csv
+
+# ── Trained model (regenerate by running day2_model.py) ──
+model.pkl
+*.pkl
+*.joblib
+
+# ── Plot outputs (regenerated on each run) ────────────────
+*.png
+*.jpg
+*.jpeg
+# Keep the plots/ folder tracked but ignore auto-generated pngs
+# To commit a specific plot: git add -f plots/day1_eda_plots.png
+
+# ── Jupyter Notebooks checkpoints ────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE / Editor ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Streamlit ─────────────────────────────────────────────
+.streamlit/secrets.toml
