@@ -1,0 +1,11 @@
+Rank,Strategy,Stops,Total Time (s),Uncertainty (±s),Pit Laps
+1,1-stop · MEDIUM(18L) → SOFT(19L),1,3354.57,1.68,[38]
+2,1-stop · MEDIUM(16L) → SOFT(21L),1,3355.19,1.47,[36]
+3,1-stop · MEDIUM(17L) → SOFT(20L),1,3355.63,1.53,[37]
+4,1-stop · MEDIUM(15L) → SOFT(22L),1,3355.79,1.71,[35]
+5,1-stop · MEDIUM(20L) → SOFT(17L),1,3356.26,1.56,[40]
+6,1-stop · MEDIUM(19L) → SOFT(18L),1,3356.38,1.73,[39]
+7,1-stop · MEDIUM(21L) → SOFT(16L),1,3356.79,1.34,[41]
+8,1-stop · MEDIUM(22L) → SOFT(15L),1,3358.04,1.87,[42]
+9,1-stop · MEDIUM(23L) → SOFT(14L),1,3359.54,1.73,[43]
+10,1-stop · MEDIUM(24L) → SOFT(13L),1,3361.02,1.48,[44]
