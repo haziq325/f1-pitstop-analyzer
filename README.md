@@ -48,11 +48,11 @@ f1-pitstop-analyzer/
 |---|---|---|
 | Day 1 | Data pipeline + EDA | ✅ Done |
 | Day 2 | Feature engineering + Model training | ✅ Done |
-| Day 3 | Streamlit app + live predictions | 🔄 In progress |
-| Day 4 | Undercut/overcut strategy logic | ⏳ Upcoming |
-| Day 5 | UI polish + tire degradation visualizer | ⏳ Upcoming |
-| Day 6 | Validation against real 2024 races | ⏳ Upcoming |
-| Day 7 | README polish + deployment | ⏳ Upcoming |
+| Day 3 | Streamlit app + live predictions | ✅ Done |
+| Day 4 | Strategy simulator + race validation | ✅ Done |
+| Day 5 | Multi-page UI polish + tire analyst + race replay | ✅ Done |
+| Day 6 | Real fastf1 data + re-train + deployment | ⏳ Upcoming |
+| Day 7 | README polish + final packaging | ⏳ Upcoming |
 
 ---
 
@@ -117,9 +117,9 @@ python day2_model.py
 ```
 Reads `processed_laps.csv` from Day 1 and saves `model.pkl`.
 
-### 5. Run Day 3 — Launch the app *(coming soon)*
+### 5. Run the App — Launch the full multi-page UI
 ```bash
-streamlit run day3_app.py
+streamlit run day5_app.py
 ```
 
 ---
